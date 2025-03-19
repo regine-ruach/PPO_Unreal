@@ -1,0 +1,46 @@
+# Ignore user-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore binaries and intermediate files
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+
+# Ignore compiled source
+*.obj
+*.pdb
+*.exe
+*.dll
+*.lib
+*.so
+*.dylib
+*.app
+*.ipa
+
+# Ignore generated project files
+*.VC.db
+*.VC.opendb
+.vscode/
+
+# Ignore Unreal Build System files
+Build/
+
+# Ignore logs and temporary files
+*.log
+*.temp
+*.cache
+*.csproj
+*.xcodeproj
+*.xcworkspace
+
+# Ignore plugin-specific files
+Plugins/*/Intermediate/
+Plugins/*/Binaries/
+
+# Ignore Unreal Engine auto-generated files
+*.generated.h
+*.generated.cpp
